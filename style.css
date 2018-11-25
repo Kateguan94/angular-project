@@ -1,0 +1,55 @@
+body {
+    background-color: rgba(0, 0, 0, 0.05);
+    margin: 0;
+    font-family: 'Neucha', cursive;
+}
+
+.searchContainer {
+    font-size: 24px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.searchBox {
+    font-family: 'Neucha', cursive;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 16px;
+    background-color: white;
+    padding: 10px 30px;
+    width: 300px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+
+.quote {
+    background-color: white;
+    font-size: 24px;
+    border-radius: 8px;
+    margin: 16px;
+    padding: 48px 156px 32px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    min-height: 86px;
+}
+
+.quote img {
+    position: absolute;
+    width: 120px;
+    top: 8px;
+    left: 32px;
+    opacity: 0.1;
+
+}
+
+.quote .date {
+    padding-top: 16px;
+    font-size: 12px;
+    text-align: right;
+    opacity: 0.6;
+}
